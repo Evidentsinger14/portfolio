@@ -12,7 +12,7 @@ export default function Projects() {
       <Head>
         <title>Evident</title>
         <meta name="description" content="Evident" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../public/images/favicon.ico" />
       </Head>
 
       {/* NavBar */}
