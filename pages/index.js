@@ -31,6 +31,11 @@ export default function Home() {
         <title>Evident</title>
         <meta name="description" content="Evident" />
         <link rel="icon" href="/images/favicon.ico" />
+        <meta content="Evident" property="og:title" />
+        <meta content="Portfolio Website for Evident" property="og:description" />
+        <meta content="https://ev1dent.dev" property="og:url" />
+        <meta content="https://avatars.githubusercontent.com/u/46200123" property="og:image" />
+        <meta content="#9b51c9" data-react-helmet="true" name="theme-color" />
       </Head>
 
       {/* NavBar */}
@@ -54,7 +59,7 @@ export default function Home() {
       {/* Body */}
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-violet-500 font-medium text-violet-500 md:text-6xl">
-            Hey! 👋 
+            Hey! 👋
             </h2>
             <h3 className="text-2xl py-2 text-white md:text-3xl">
             I'm Charles, a 22 year old Developer from Pennsylvania, USA.
