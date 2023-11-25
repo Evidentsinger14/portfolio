@@ -82,8 +82,9 @@ export default function Home() {
             <br></br>
             <h2 className="text-3xl pt-12 underline underline-offset-4 text-violet-500">Places I Contribute</h2>
             <ul className="text-2xl pt-4 text-white">
-              <li>•  🥔 Helper @ <a href="https://github.com/MinecraftOSS" className="text-green-400">MinecraftOSS</a> & <a href="https://github.com/LuckPerms" className="text-lime-500">LuckPerms</a></li>
-              <li>• 🛠️ Triage @ <a href="https://github.com/EssentialsX/" className="text-red-500">EssentialsX</a></li>
+              <li>• 🥔 Helper @ <a href="https://github.com/MinecraftOSS" className="text-green-400">MinecraftOSS</a></li>
+              <li>• 🧪 Triage @ <a href="https://github.com/EssentialsX/" className="text-red-500">EssentialsX</a></li>
+              <li>• 🛠️ Moderator @ <a href="https://github.com/LuckPerms" className="text-lime-500">LuckPerms</a></li>
             </ul>
             <br></br>
             <h2 className="text-3xl pt-12 pb-4 underline underline-offset-4 text-violet-500">Software/Frameworks I use</h2>
