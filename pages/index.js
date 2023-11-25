@@ -62,7 +62,7 @@ export default function Home() {
             Hey! 👋
             </h2>
             <h3 className="text-2xl py-2 text-white md:text-3xl">
-            I'm Charles, a 22 year old Developer from Pennsylvania, USA.
+            I'm Charles, a 23 year old Developer from Pennsylvania, USA.
             </h3>
             <br></br>
             <div className="mx-auto bg-gradient-to-b from-purple-900 to-violet-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
