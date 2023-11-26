@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
-        poppins: "Poppins",
-        steelworks: "steelworks",
+        akira: "akira",
+
       },
     },
   },
