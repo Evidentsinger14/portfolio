@@ -13,9 +13,9 @@ export default function Projects() {
       </Head>
 
       {/* NavBar */}
-      <main className=" bg-white px-10 dark:bg-midnight-blue">
+      <main className=" bg-white px-10 bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="container mx-auto flex flex-wrap flex-col items-center dark:text-white">
+          <nav className="container mx-auto flex flex-wrap flex-col items-center text-white">
             <a className="flex title-font font-medium items-center text-gray-900 mb-4">
               <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
             </a>

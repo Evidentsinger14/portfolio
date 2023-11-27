@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-// import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
-// import { BsDiscord } from "react-icons/bs";
-// import { MdMarkEmailRead } from "react-icons/md"
+import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+import { BsDiscord } from "react-icons/bs";
+import { MdMarkEmailRead } from "react-icons/md"
 import evident from "../public/images/avatar.png";
 import Image from "next/image";
-// import Link from "next/link";
+import Link from "next/link";
 /* Software Logos */
 import IntelliJ from "../public/images/software/IntelliJ.png"
 import WebStorm from "../public/images/software/WebStorm.png"
@@ -34,9 +34,9 @@ export default function Home() {
       </Head>
 
       {/* NavBar */}
-      <main className=" bg-white px-10 dark:bg-midnight-blue">
+      <main className=" px-10 bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="container mx-auto flex flex-wrap flex-col items-center dark:text-white">
+          <nav className="container mx-auto flex flex-wrap flex-col items-center text-white">
             <a className="flex title-font font-medium items-center text-gray-900 mb-4">
               <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
             </a>
@@ -56,16 +56,17 @@ export default function Home() {
                 <Image src={evident} height="250" width="200" alt=""/>
               </div>
             </div>
+
             {/*Will be made into a menu at some point?*/}
-            {/*<div className="pt-12">*/}
-            {/*<h2 className="text-3xl py-2 underline underline-offset-4 text-violet-500">Linked Accounts</h2>*/}
-            {/*<div className="text-5xl flex justify-center gap-16 pt-4 text-gray-400">*/}
-            {/*  <Link href="https://twitter.com/Evidentsinger14" ><AiFillTwitterCircle /></Link>*/}
-            {/*  <Link href="https://github.com/Evidentsinger14" ><AiFillGithub/></Link>*/}
-            {/*  <Link href="https://discord.com/users/412070526081695744" ><BsDiscord /></Link>*/}
-            {/*  <Link href="mailto:evident@ev1dent.dev"><MdMarkEmailRead /></Link>*/}
-            {/*</div>*/}
-            {/*</div>*/}
+            <div className="pt-12">
+            <h2 className="text-3xl py-2 underline underline-offset-4 text-purple">Linked Accounts</h2>
+            <div className="text-5xl flex justify-center gap-16 pt-4 text-gray-400">
+              <Link href="https://twitter.com/Evidentsinger14" ><AiFillTwitterCircle /></Link>
+              <Link href="https://github.com/Evidentsinger14" ><AiFillGithub/></Link>
+              <Link href="https://discord.com/users/412070526081695744" ><BsDiscord /></Link>
+              <Link href="mailto:evident@ev1dent.dev"><MdMarkEmailRead /></Link>
+            </div>
+            </div>
             <br></br>
             <h2 className="text-3xl pt-7 underline underline-offset-4 text-purple">Where you can find me!</h2>
             <ul className="text-2xl pt-4 text-white">
