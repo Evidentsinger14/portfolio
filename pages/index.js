@@ -51,13 +51,9 @@ export default function Home() {
 
       {/* Body */}
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-purple font-medium text-violet-500 md:text-6xl">
-            Hey! 👋
-            </h2>
+            <h2 className="text-5xl py-2 text-purple font-medium text-violet-500 md:text-6xl">Hey! 👋</h2>
             <div>
-            <h3 className="text-2xl py-2 text-white md:text-3xl">
-            I'm Charles, a 23 year old Developer from Pennsylvania, USA.
-            </h3>
+            <h3 className="text-2xl py-2 text-white md:text-3xl">I'm Charles, a 23 year old Developer from Pennsylvania, USA.</h3>
               <div className="pt-7">
                 <Image src={evident} height="250" width="200" alt=""/>
               </div>
@@ -80,15 +76,18 @@ export default function Home() {
               <li>• 🛠️ Moderator @ <a href="https://github.com/LuckPerms" className="text-luckperms">LuckPerms</a></li>
             </ul>
             <br></br>
-            <h2 className="text-3xl pt-12 pb-4 underline underline-offset-4 text-purple">Software/Frameworks I use</h2>
+            <h2 className="text-3xl pt-7 pb-2 underline underline-offset-4 text-purple">Software/Frameworks I use</h2>
             <div>
-            <Image height='50' width='50' src={IntelliJ} alt="InteliJ"/>
+              <h3 className="text-2xl text-white pt-4 mb-2 underline">• IDEs</h3>
+            <Image className="mx-10" height='50' width='50' src={IntelliJ} alt="InteliJ"/>
             <Image height='50' width='50' src={WebStorm} alt="WebStorm"/>
             <Image height='50' width='50' src={VSC} alt="VSC"/>
             <Image height='50' width='50' src={Sublime} alt="Sublime"/>
+              <h3 className="text-2xl text-white pt-4 mb-2 underline">• Dev Languages</h3>
             <Image height='50' width='50' src={JavaScript} alt="JavaScript"/>
             <Image height='50' width='50' src={NodeJS} alt="NodeJS"/>
             <Image height='50' width='50' src={Java} alt="Java"/>
+              <h3 className="text-2xl text-white pt-4 mb-2 underline">• Other Software</h3>
             <Image height='50' width='50' src={Windows} alt="Windows"/>
             <Image height='50' width='50' src={Ubuntu} alt="Ubuntu"/>
             <Image height='50' width='50' src={Github} alt="Github"/>
