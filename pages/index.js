@@ -58,9 +58,8 @@ export default function Home() {
             <h3 className="text-2xl py-2 text-white md:text-3xl">
             I'm Charles, a 23 year old Developer from Pennsylvania, USA.
             </h3>
-            <br></br>
-              <div className="mx-auto object-center bg-gradient-to-b from-dark-purple to-purple rounded-full w-80 h-80 relative overflow-hidden">
-                <Image src={evident} layout="fill" objectFit="cover" alt=""/>
+              <div className="pt-7">
+                <Image src={evident} height="250" width="200" alt=""/>
               </div>
             </div>
             {/*Will be made into a menu at some point?*/}
@@ -74,7 +73,7 @@ export default function Home() {
             {/*</div>*/}
             {/*</div>*/}
             <br></br>
-            <h2 className="text-3xl pt-12 underline underline-offset-4 text-purple">Where you can find me!</h2>
+            <h2 className="text-3xl pt-7 underline underline-offset-4 text-purple">Where you can find me!</h2>
             <ul className="text-2xl pt-4 text-white">
               <li>• 🥔 Helper @ <a href="https://github.com/MinecraftOSS" className="text-transparent bg-clip-text bg-gradient-to-r from-minecraftoss-100 to-minecraftoss-200">MinecraftOSS</a></li>
               <li>• 🧪 Triage @ <a href="https://github.com/EssentialsX/" className="text-transparent bg-clip-text bg-gradient-to-r from-essentialsx-100 via-essentialsx-200 to-essentialsx-300">EssentialsX</a></li>
