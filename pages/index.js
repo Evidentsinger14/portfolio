@@ -39,10 +39,10 @@ export default function Home() {
       </Head>
 
       {/* NavBar */}
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-white px-10 dark:bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-akira text-5xl">Evident</h1>
+          <nav className="py-10 px-0 mb-12 flex justify-between dark:text-white">
+            <h1 className="font-akira text-white text-5xl">Evident</h1>
             <ul className="flex items-center">
               <li>
                 <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./">Home</a>
@@ -58,14 +58,14 @@ export default function Home() {
 
       {/* Body */}
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-violet-500 font-medium text-violet-500 md:text-6xl">
+            <h2 className="text-5xl py-2 text-purple font-medium text-violet-500 md:text-6xl">
             Hey! 👋
             </h2>
             <h3 className="text-2xl py-2 text-white md:text-3xl">
             I'm Charles, a 23 year old Developer from Pennsylvania, USA.
             </h3>
             <br></br>
-            <div className="mx-auto bg-gradient-to-b from-purple-900 to-violet-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-dark-purple to-purple rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={evident} layout="fill" objectFit="cover" alt=""/>
             </div>
             <div className="pt-12">
@@ -75,16 +75,14 @@ export default function Home() {
               <Link href="https://github.com/Evidentsinger14" ><AiFillGithub/></Link>
               <Link href="https://discord.com/users/412070526081695744" ><BsDiscord /></Link>
               <Link href="mailto:evident@ev1dent.dev"><MdMarkEmailRead /></Link>
-
-
             </div>
             </div>
             <br></br>
-            <h2 className="text-3xl pt-12 underline underline-offset-4 text-violet-500">Places I Contribute</h2>
+            <h2 className="text-3xl pt-12 underline underline-offset-4 text-purple">Where you can find me!</h2>
             <ul className="text-2xl pt-4 text-white">
-              <li>• 🥔 Helper @ <a href="https://github.com/MinecraftOSS" className="text-green-400">MinecraftOSS</a></li>
-              <li>• 🧪 Triage @ <a href="https://github.com/EssentialsX/" className="text-red-500">EssentialsX</a></li>
-              <li>• 🛠️ Moderator @ <a href="https://github.com/LuckPerms" className="text-lime-500">LuckPerms</a></li>
+              <li>• 🥔 Helper @ <a href="https://github.com/MinecraftOSS" className="text-transparent bg-clip-text bg-gradient-to-r from-minecraftoss-100 to-minecraftoss-200">MinecraftOSS</a></li>
+              <li>• 🧪 Triage @ <a href="https://github.com/EssentialsX/" className="text-transparent bg-clip-text bg-gradient-to-r from-essentialsx-100 via-essentialsx-200 to-essentialsx-300">EssentialsX</a></li>
+              <li>• 🛠️ Moderator @ <a href="https://github.com/LuckPerms" className="text-luckperms">LuckPerms</a></li>
             </ul>
             <br></br>
             <h2 className="text-3xl pt-12 pb-4 underline underline-offset-4 text-violet-500">Software/Frameworks I use</h2>
