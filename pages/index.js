@@ -12,14 +12,11 @@ import IntelliJ from "../public/images/software/IntelliJ.png"
 import WebStorm from "../public/images/software/WebStorm.png"
 import VSC from "../public/images/software/VSC.png"
 import Sublime from "../public/images/software/Sublime.png"
-import HTML from "../public/images/software/HTML.png"
-import CSS from "../public/images/software/CSS.png"
 import JavaScript from "../public/images/software/JavaScript.png"
 import NodeJS from "../public/images/software/NodeJS.png"
 import Java from "../public/images/software/Java.png"
 import Windows from "../public/images/software/Windows.png"
 import Ubuntu from "../public/images/software/Ubuntu.png"
-import LinuxMint from "../public/images/software/LinuxMint.png"
 import Github from "../public/images/software/Github.png"
 import Docker from "../public/images/software/Docker.png"
 
@@ -51,7 +48,7 @@ export default function Home() {
                 <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./projects">Projects</a>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="https://paste.ev1dent.dev">Pastebin</a>
+                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="https://pastes.dev">Pastebin</a>
               </li>
             </ul>
           </nav>
@@ -68,15 +65,16 @@ export default function Home() {
             <div className="mx-auto bg-gradient-to-b from-dark-purple to-purple rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={evident} layout="fill" objectFit="cover" alt=""/>
             </div>
-            <div className="pt-12">
-            <h2 className="text-3xl py-2 underline underline-offset-4 text-violet-500">Linked Accounts</h2>
-            <div className="text-5xl flex justify-center gap-16 pt-4 text-gray-400">
-              <Link href="https://twitter.com/Evidentsinger14" ><AiFillTwitterCircle /></Link>
-              <Link href="https://github.com/Evidentsinger14" ><AiFillGithub/></Link>
-              <Link href="https://discord.com/users/412070526081695744" ><BsDiscord /></Link>
-              <Link href="mailto:evident@ev1dent.dev"><MdMarkEmailRead /></Link>
-            </div>
-            </div>
+            {/*Will be made into a menu at some point?*/}
+            {/*<div className="pt-12">*/}
+            {/*<h2 className="text-3xl py-2 underline underline-offset-4 text-violet-500">Linked Accounts</h2>*/}
+            {/*<div className="text-5xl flex justify-center gap-16 pt-4 text-gray-400">*/}
+            {/*  <Link href="https://twitter.com/Evidentsinger14" ><AiFillTwitterCircle /></Link>*/}
+            {/*  <Link href="https://github.com/Evidentsinger14" ><AiFillGithub/></Link>*/}
+            {/*  <Link href="https://discord.com/users/412070526081695744" ><BsDiscord /></Link>*/}
+            {/*  <Link href="mailto:evident@ev1dent.dev"><MdMarkEmailRead /></Link>*/}
+            {/*</div>*/}
+            {/*</div>*/}
             <br></br>
             <h2 className="text-3xl pt-12 underline underline-offset-4 text-purple">Where you can find me!</h2>
             <ul className="text-2xl pt-4 text-white">
@@ -85,20 +83,17 @@ export default function Home() {
               <li>• 🛠️ Moderator @ <a href="https://github.com/LuckPerms" className="text-luckperms">LuckPerms</a></li>
             </ul>
             <br></br>
-            <h2 className="text-3xl pt-12 pb-4 underline underline-offset-4 text-violet-500">Software/Frameworks I use</h2>
+            <h2 className="text-3xl pt-12 pb-4 underline underline-offset-4 text-purple">Software/Frameworks I use</h2>
             <div>
             <Image height='50' width='50' src={IntelliJ} alt="InteliJ"/>
             <Image height='50' width='50' src={WebStorm} alt="WebStorm"/>
             <Image height='50' width='50' src={VSC} alt="VSC"/>
             <Image height='50' width='50' src={Sublime} alt="Sublime"/>
-            <Image height='50' width='50' src={HTML} alt="HTML"/>
-            <Image height='50' width='50' src={CSS} alt="CSS"/>
             <Image height='50' width='50' src={JavaScript} alt="JavaScript"/>
             <Image height='50' width='50' src={NodeJS} alt="NodeJS"/>
             <Image height='50' width='50' src={Java} alt="Java"/>
             <Image height='50' width='50' src={Windows} alt="Windows"/>
             <Image height='50' width='50' src={Ubuntu} alt="Ubuntu"/>
-            <Image height='50' width='50' src={LinuxMint} alt="LinuxMint"/>
             <Image height='50' width='50' src={Github} alt="Github"/>
             <Image height='50' width='50' src={Docker} alt="Docker"/>
             </div>
