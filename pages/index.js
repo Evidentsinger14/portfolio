@@ -77,17 +77,21 @@ export default function Home() {
             </ul>
             <br></br>
             <h2 className="text-3xl pt-7 pb-2 underline underline-offset-4 text-purple">Software/Frameworks I use</h2>
-            <div>
               <h3 className="text-2xl text-white pt-4 mb-2 underline">• IDEs</h3>
-            <Image className="mx-10" height='50' width='50' src={IntelliJ} alt="InteliJ"/>
+            <div className="flex flex-row gap-3 justify-center">
+            <Image height='50' width='50' src={IntelliJ} alt="InteliJ"/>
             <Image height='50' width='50' src={WebStorm} alt="WebStorm"/>
             <Image height='50' width='50' src={VSC} alt="VSC"/>
             <Image height='50' width='50' src={Sublime} alt="Sublime"/>
-              <h3 className="text-2xl text-white pt-4 mb-2 underline">• Dev Languages</h3>
+            </div>
+            <h3 className="text-2xl text-white pt-4 mb-2 underline">• Dev Languages</h3>
+            <div className="flex flex-row gap-3 justify-center">
             <Image height='50' width='50' src={JavaScript} alt="JavaScript"/>
             <Image height='50' width='50' src={NodeJS} alt="NodeJS"/>
             <Image height='50' width='50' src={Java} alt="Java"/>
-              <h3 className="text-2xl text-white pt-4 mb-2 underline">• Other Software</h3>
+            </div>
+            <h3 className="text-2xl text-white pt-4 mb-2 underline">• Other Software</h3>
+            <div className="flex flex-row gap-3 justify-center">
             <Image height='50' width='50' src={Windows} alt="Windows"/>
             <Image height='50' width='50' src={Ubuntu} alt="Ubuntu"/>
             <Image height='50' width='50' src={Github} alt="Github"/>
