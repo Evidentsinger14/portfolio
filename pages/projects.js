@@ -1,14 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import { useState } from "react";
 import Image from "next/image";
 
 import noLogo from "../public/images/projects/no-logo.png";
 
 export default function Projects() {
-  const [darkMode] = useState(true);
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div>
       <Head>
         <title>Evident</title>
         <meta name="description" content="Evident" />

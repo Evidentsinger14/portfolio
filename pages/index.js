@@ -1,12 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
-import { BsDiscord } from "react-icons/bs";
-import { MdMarkEmailRead } from "react-icons/md"
-import { useState } from "react";
+// import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+// import { BsDiscord } from "react-icons/bs";
+// import { MdMarkEmailRead } from "react-icons/md"
 import evident from "../public/images/avatar.png";
 import Image from "next/image";
-import Link from "next/link";
 /* Software Logos */
 import IntelliJ from "../public/images/software/IntelliJ.png"
 import WebStorm from "../public/images/software/WebStorm.png"
@@ -21,9 +19,8 @@ import Github from "../public/images/software/Github.png"
 import Docker from "../public/images/software/Docker.png"
 
 export default function Home() {
-  const [darkMode] = useState(true);
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div>
       <Head>
         <title>Evident</title>
         <meta name="description" content="Evident" />
