@@ -32,10 +32,9 @@ export default function Projects() {
       {/* Body */}
       <section>
           <div className="text-center p-10 py-10">
-            <h3 className="text-3xl py-1 underline underline-offset-4 text-purple ">Projects</h3>
-            <p className="text-md py-2 leading-8 text-gray-200">
-              When I'm not at my day job, I'm busy working on a number of different projects, Most of which are Minecraft related - Minecraft Servers, Plugins, Etc.
-            </p>
+            <h2 className="text-3xl pt-7 underline underline-offset-4 text-purple">Projects</h2>
+            <p className="text-xl py-2 text-white md:text-2xl">When I'm not at my day job, I'm busy working on a number of different projects</p>
+            <p className="text-xl py-2 text-white md:text-2xl">Most of which are Minecraft related - Minecraft Servers, Plugins, Etc.</p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-600 flex-1">
