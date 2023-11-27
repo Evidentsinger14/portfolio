@@ -38,19 +38,15 @@ export default function Home() {
       {/* NavBar */}
       <main className=" bg-white px-10 dark:bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="py-10 px-0 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-akira text-white text-5xl">Evident</h1>
-            <ul className="flex items-center">
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./">Home</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./projects">Projects</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="https://pastes.dev">Pastebin</a>
-              </li>
-            </ul>
+          <nav className="container mx-auto flex flex-wrap flex-col items-center dark:text-white">
+            <a className="flex title-font font-medium items-center text-gray-900 mb-4">
+              <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
+            </a>
+            <div className="flex flex-wrap items-center text-base justify-center">
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="./">Home</a>
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="./projects">Projects</a>
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="https://pastes.dev">Pastebin</a>
+            </div>
           </nav>
 
       {/* Body */}
@@ -58,12 +54,14 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-purple font-medium text-violet-500 md:text-6xl">
             Hey! 👋
             </h2>
+            <div>
             <h3 className="text-2xl py-2 text-white md:text-3xl">
             I'm Charles, a 23 year old Developer from Pennsylvania, USA.
             </h3>
             <br></br>
-            <div className="mx-auto bg-gradient-to-b from-dark-purple to-purple rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={evident} layout="fill" objectFit="cover" alt=""/>
+              <div className="mx-auto object-center bg-gradient-to-b from-dark-purple to-purple rounded-full w-80 h-80 relative overflow-hidden">
+                <Image src={evident} layout="fill" objectFit="cover" alt=""/>
+              </div>
             </div>
             {/*Will be made into a menu at some point?*/}
             {/*<div className="pt-12">*/}
