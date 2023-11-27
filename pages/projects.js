@@ -1,14 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import { useState } from "react";
 import Image from "next/image";
 
 import noLogo from "../public/images/projects/no-logo.png";
 
 export default function Projects() {
-  const [darkMode] = useState(true);
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div>
       <Head>
         <title>Evident</title>
         <meta name="description" content="Evident" />
@@ -16,30 +13,25 @@ export default function Projects() {
       </Head>
 
       {/* NavBar */}
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="px-10 bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-steelworks text-5xl">Evident</h1>
-            <ul className="flex items-center">
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./">Home</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./projects">Projects</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="https://paste.ev1dent.dev">Pastebin</a>
-              </li>
-            </ul>
+          <nav className="container mx-auto flex flex-wrap flex-col items-center text-white">
+            <a className="flex title-font font-medium items-center text-gray-900 mb-4">
+              <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
+            </a>
+            <div className="flex flex-wrap items-center text-base justify-center">
+              <a className=" text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./">Home</a>
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./projects">Projects</a>
+              <a className="text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="https://pastes.dev">Pastebin</a>
+            </div>
           </nav>
 
       {/* Body */}
       <section>
           <div className="text-center p-10 py-10">
-            <h3 className="text-3xl py-1 underline underline-offset-4 text-violet-500 ">Projects</h3>
-            <p className="text-md py-2 leading-8 text-gray-200">
-              When I'm not at my day job, I'm busy working on a number of different projects, Most of which are Minecraft related - Minecraft Servers, Plugins, Etc.
-            </p>
+            <h2 className="text-3xl pt-7 underline underline-offset-4 text-purple">Projects</h2>
+            <p className="text-xl py-2 text-white md:text-2xl">When I'm not at my day job, I'm busy working on a number of different projects</p>
+            <p className="text-xl py-2 text-white md:text-2xl">Most of which are Minecraft related - Minecraft Servers, Plugins, Etc.</p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-600 flex-1">

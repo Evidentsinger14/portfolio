@@ -19,6 +19,6 @@ a {
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "steelworks";
-  src: url("../public/SteelWorks.otf");
+  font-family: "akira";
+  src: url("../public/akira.otf");
 }
