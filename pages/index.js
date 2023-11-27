@@ -5,6 +5,7 @@ import Head from "next/head";
 // import { MdMarkEmailRead } from "react-icons/md"
 import evident from "../public/images/avatar.png";
 import Image from "next/image";
+// import Link from "next/link";
 /* Software Logos */
 import IntelliJ from "../public/images/software/IntelliJ.png"
 import WebStorm from "../public/images/software/WebStorm.png"
