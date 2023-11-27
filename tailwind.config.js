@@ -17,6 +17,7 @@ module.exports = {
       'purple': '#7641ac',
       'dark-purple': '#4f1464',
       'white': '#FFFFFF',
+      'gray': colors.gray,
       'luckperms': '#94df03',
       'minecraftoss': {
         100: '#2b9c56',

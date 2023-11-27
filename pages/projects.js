@@ -16,27 +16,23 @@ export default function Projects() {
       </Head>
 
       {/* NavBar */}
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-white px-10 dark:bg-midnight-blue">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-steelworks text-5xl">Evident</h1>
-            <ul className="flex items-center">
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./">Home</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="./projects">Projects</a>
-              </li>
-              <li>
-                <a className="bg-gradient-to-r from-purple-900 to-violet-500 text-white px-4 py-2 border-none rounded-md ml-8" href="https://paste.ev1dent.dev">Pastebin</a>
-              </li>
-            </ul>
+          <nav className="container mx-auto flex flex-wrap flex-col items-center dark:text-white">
+            <a className="flex title-font font-medium items-center text-gray-900 mb-4">
+              <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
+            </a>
+            <div className="flex flex-wrap items-center text-base justify-center">
+              <a className=" text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./">Home</a>
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./projects">Projects</a>
+              <a className="text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="https://pastes.dev">Pastebin</a>
+            </div>
           </nav>
 
       {/* Body */}
       <section>
           <div className="text-center p-10 py-10">
-            <h3 className="text-3xl py-1 underline underline-offset-4 text-violet-500 ">Projects</h3>
+            <h3 className="text-3xl py-1 underline underline-offset-4 text-purple ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-200">
               When I'm not at my day job, I'm busy working on a number of different projects, Most of which are Minecraft related - Minecraft Servers, Plugins, Etc.
             </p>

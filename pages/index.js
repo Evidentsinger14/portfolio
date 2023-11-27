@@ -43,9 +43,9 @@ export default function Home() {
               <h1 className="font-akira text-white text-5xl pt-6">Evident</h1>
             </a>
             <div className="flex flex-wrap items-center text-base justify-center">
-              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="./">Home</a>
-              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="./projects">Projects</a>
-              <a className="bg-purple text-white px-5 py-2 border-none rounded-md mt-2 ml-4 mr-4" href="https://pastes.dev">Pastebin</a>
+              <a className="bg-purple text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./">Home</a>
+              <a className="text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="./projects">Projects</a>
+              <a className="text-white px-5 py-2 border-none rounded-xl mt-2 ml-4 mr-4" href="https://pastes.dev">Pastebin</a>
             </div>
           </nav>
 
