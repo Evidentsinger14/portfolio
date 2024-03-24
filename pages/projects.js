@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import noLogo from "../public/images/projects/no-logo.png";
-
+import ppLogo from "../public/images/projects/pp-logo.png";
 export default function Projects() {
   return (
     <div>
@@ -49,18 +49,18 @@ export default function Projects() {
               <p className="py-1 text-white">Magical Effects System</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-600 flex-1">
-              <Image src={noLogo} width={100} height={100} alt="" />
+              <Image src={ppLogo} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                CookieNetwork
+                PermissionPurge
               </h3>
               <p className="py-2">
-                A Minecraft server owned by Bandithello.
+                This plugin allows for efficient purging of unused or outdated permissions.
               </p>
-              <h4 className="text-2xl py-1 text-violet-500 pb-5">Server Info</h4>
-              <p className="py-1 text-white">Coming Soon</p>
-              <p className="py-1 text-white">Coming Soon</p>
-              <p className="py-1 text-white">Coming Soon</p>
-              <p className="py-1 text-white">Coming Soon</p>
+              <h4 className="text-2xl py-1 text-violet-500 pb-5">Plugin Info</h4>
+              <p className="py-1 text-white">Download at Modrinth</p>
+              <p className="py-1 text-white">Easy to use</p>
+              <p className="py-1 text-white">LuckPerms Addon</p>
+              <p className="py-1 text-white">Supports all versions.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-600 flex-1">
               <Image src={noLogo} width={100} height={100} alt=""/>
