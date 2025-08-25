@@ -51,7 +51,7 @@ export default function Home() {
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-purple font-medium text-violet-500 md:text-6xl">Hey! 👋</h2>
             <div>
-            <h3 className="text-2xl py-2 text-white md:text-3xl">I'm Charles, a 24 year old Developer from Pennsylvania, USA.</h3>
+            <h3 className="text-2xl py-2 text-white md:text-3xl">I'm Charles, a 25 year old Developer from Pennsylvania, USA.</h3>
               <div className="pt-7">
                 <Image src={evident} height="250" width="200" alt=""/>
               </div>
